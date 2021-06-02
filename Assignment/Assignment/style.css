@@ -1,0 +1,296 @@
+
+body{                           /*This is the CSS for body section for all the HTML pages.*/
+	background-image: url(style.jpg);
+	padding:0px;
+    margin:0px;
+    height:680px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+
+.uli{													/*This part is for the navigation bar.*/
+	float:right;
+	display:flex;
+	margin-top: -27px;
+}
+
+
+.uli a{                                       /*This part is for the text inside navigation bar. */
+	text-decoration: none;
+	color:white;
+	padding:5px 20px;
+	border:1px solid white transparent;
+	transition:0.5s ease;
+	height: 10px;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
+.uli a:hover{									/*This part is for hover on the text inside nav bar. */
+	background-color: #69dcde;
+	color: black;
+}
+
+
+
+
+nav{                                   /*This part is for the size and color of the navigation bar.*/
+	background-color: #67cdd852;
+	height:60px;
+	width:100%;
+	margin-top: 0px;
+}
+
+/*Home*/
+
+.text{      													/*This part is for the text in the home page.*/
+	float:left;
+	color: #9ee89e;
+	text-align:left;
+	padding-top: 200px;
+	width: 100%;
+
+}
+
+.tittle{                 
+	color: white;
+	float:center;
+}
+
+
+/*Portfolio*/
+.image{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.placeholder1{                /*This part is for the first image of palceholder*/
+	 width:150px;
+	 height:150px;
+	
+	 margin-top:30px;
+    float: right;
+  padding-left: 150px;
+}
+
+.placeholder2{                /*This part is for the second image of palceholder*/
+	 width:150px;
+	 height:150px;
+	 margin-top: 30px;
+    float:left;
+        margin-left: 102px;
+}
+
+.placeholder3{                         /*This part is for the third image of palceholder*/
+	 width:150px;
+	 height:150px;
+	 margin-left: 120px;
+	 margin-top: 30px;
+	}
+
+.placeholder{                       /*This part is for the text below the image of palceholder*/
+	text-align: center;
+	font-size: 30px;
+	background-color: #9292c180;
+	margin-top: 15px;
+}
+
+
+
+
+
+/*CV*/
+
+{                  /*This part is for the cv section.*/
+	/*margin:0;
+	padding:0;
+	box-sizing: border-box;*/
+}
+
+.Profile{             /*This is for the header part containing img and name.*/
+	width:100%;
+	margin:0px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+
+.header{                   /*This part is for the top part of cv page.*/
+	width:100%;
+	/*height: 125px;*/
+	background-color:#456076e3;
+	/*display: flex;*/
+	text-align: left;
+	position: relative;
+	top: -15px;
+}
+
+
+.about{
+		margin-top: 87px;
+
+}
+
+.header img{                      /*This is the part for the image inside CV page*/
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+   position: absolute; 
+	border: 2px #f1eded00;
+	top: 40px ;	
+	left:40px;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+
+.header_txt{               /*This is the part for the text in the header section of the CV*/
+	color:white;
+	width:100%;
+	margin-left: 250px;
+}
+
+.header_txt h1{                      /*This is the part for the name in the header section of the CV.*/
+	font-size: 30px;
+}
+
+.header_txt p{                           /*This part is for the  occupation in the header section of the CV */
+	font-size: 20px;
+	color:grey;
+}
+
+
+.left-area{                                /*This part is for the  left area of the CV */
+	width:30%;
+	background-color: #8585bcc4;
+	text-align: center;
+}
+.left-area .details{            /*This part is for the personal details in left area of the CV */
+	margin-top: 130px;
+}
+
+
+.right-area{                             /*This part is for the  right area of the CV */
+   background-color: #b67ec4e0;
+   width: 100%;
+   margin: 0px;
+}
+.2{
+	margin-top: 0px;
+
+}
+
+tr, td{												 /*This part is for size and border-color of the table.*/
+	width:20%;
+	border: 2px solid;
+	border-color: #b67ec4e0;
+	padding: 20px;
+}
+
+
+.maintable{                                /*This part is for the size color and inside text of the table.*/
+	border: 2px solid;
+	text-align: center;
+	border-collapse: collapse;
+	margin:20px ;
+	height: 20px;
+	background-color:#e400ff12;
+}
+.details{
+	background-color: #a2a2d473;
+    padding-top: 75px;
+    height: 308px;
+}
+
+
+
+/*Contact*/
+
+legend{                                  /*This part is for the font of registration in contact page.*/
+	font-size: 40px;
+}
+
+fieldset{ 					   /*This part is for the size background color font size and font color of registration page in contact. */
+	width:50%;
+	background-image: linear-gradient(rgb(174 149 143 / 51%),rgb(182 201 199 / 71%));
+   height: 460px;
+   border-color: #9a9aa500;
+   margin-top: 0px;
+   padding-left: 50px;
+   color: #1f1407c9;
+   font-size: 20px;
+}
+
+.contact{              /*This section is for the contact us part in contact page.*/
+	background-color:#beb54ce0;
+	margin:-150x;
+   text-align:left;
+	padding:40px;
+	padding-left: 15px;
+	margin-top: -400px;
+	float: right;
+   margin-bottom:0px;
+   width: 45%;
+}
+
+
+
+
+
+/*Responsive*/
+
+.port{
+	height: 3px;
+	width: 25px;
+	background-color: #1e1916b3;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+
+.bla{
+	display: flex;
+   flex-direction: column;
+}
+
+      @media screen and (max-width:500px){
+      	body{
+      		height: 678px;
+      	}
+      
+
+
+	
+
+   .uli{
+   	transform-origin: 0% 0%;
+   	transform: translate(0%, -500%);
+   	display:flex;
+      flex-direction: column;
+   	transition: transform 0s;
+   	float: none;
+     margin-left: 7%;
+     margin-top: -50px;
+}
+
+
+
+
+    .main input:checked~ .uli{  
+    	 	transform: none;
+    	  transition-duration: 1s;
+}
+}
+
+#font{         /*This part is for the checkbox for the navigation bar.*/
+	position: relative;
+	height:18px;
+	width: 36px;
+	top: 25px;
+	opacity: 0;
+}
+
+
