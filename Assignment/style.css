@@ -117,9 +117,9 @@ nav{                                   /*This part is for the size and color of 
 	background-color:#456076e3;
 	/*display: flex;*/
 	text-align: left;
-	position: relative;
-	top: -15px;
-}
+	margin-top: 5px;
+
+	}
 
 
 .about{                    /*This is for the above section of the personal details area*/ 
@@ -131,7 +131,7 @@ nav{                                   /*This part is for the size and color of 
 	width: 180px;
 	height: 180px;
 	border-radius: 50%;
-   position: absolute; 
+  /* position: absolute; */
 	border: 2px #f1eded00;
 	top: 40px ;	
 	left:40px;
@@ -140,15 +140,16 @@ nav{                                   /*This part is for the size and color of 
 
 .header_txt{               /*This is the part for the text in the header section of the CV*/
 	color:white;
-	width:100%;
+	/*width:100%;*/
 	margin-left: 250px;
+	    margin-top: -163px;
 }
 
 .header_txt h1{                      /*This is the part for the name in the header section of the CV.*/
 	font-size: 30px;
 }
 
-.header_txt p{                           /*This part is for the  occupation in the header section of the CV */
+.header_txt p{                           This part is for the  occupation in the header section of the CV 
 	font-size: 20px;
 	color:grey;
 }
@@ -166,14 +167,15 @@ nav{                                   /*This part is for the size and color of 
 
 .right-area{                             /*This part is for the  right area of the CV */
    background-color: #b67ec4e0;
-   width: 100%;
+   /*width: 50%;*/
 margin-top: 88px;
     height: 382px;
     padding-top: 1px;
 }
 
 .ra{                                /*This is above section of the qualification area*/
-	margin-top: -1px;
+	margin-top: -64px;
+	/*width: 50%;*/
 
 }
 
@@ -196,8 +198,10 @@ tr, td{												 /*This part is for size and border-color of the table.*/
 
 .details{                                  /*This is for the personal details area.*/
 	background-color: #a2a2d473;
-    padding-top: 10px;
-    height: 374px;
+    /*padding-top: 10px;*/
+    height: 384px;
+    margin-top: -84px;
+    /*width: 30%;*/
 }
 
 
@@ -244,66 +248,28 @@ fieldset{ 					   /*This part is for the size background color font size and fon
 	display: grid;
 	grid-template-columns: auto auto;
 	background-color: #3d362e;
+	/*padding-bottom: 15px;*/
 
-
-}
-
-.homeA{
-	height: 400px;
-	width: 500px;
-	margin-left: 30px;
-	margin-top: 5px;
 }
 
-.homeB{
-	height: 405px;
-	width: 535px;
-	margin-top: 5px;
-	padding-left: 15px;
-}
-.portfolioA{
-	height: 400px;
-	width: 500px;
-	margin-left: 30px;
-	margin-top: 5px;
-}
-.portfolioB{
-  	height: 405px;
-    width: 535px;
-    margin-top: 5px;
-    padding-left: 15px;
+.pics img{
+	width: 100%;
+
 }
 
-.cvA{
-	height: 400px;
-	width: 500px;
-	margin-left: 30px;
-	margin-top: 5px;
-}
 
-.cvB{
-	height: 405px;
-	width: 535px;
-	margin-top: 5px;
-	padding-left: 15px;
-}
-.contactA{
-	height: 400px;
-	width: 500px;
-	margin-left: 30px;
-	margin-top: 5px;
-}
-.contactB{
-  	height: 405px;
-    width: 535px;
-    margin-top: 5px;
-    padding-left: 15px;
+.desc{
+	font-size: 10px;
 }
 .writing2{
 	background-color: #9fb7c0;
-	margin-top: -20px;
+	margin-top: -15px;
 }
-
+.writing3{
+	background-color: #c6956b;
+	margin-top: -16px;
+	padding-top: 5px;
+}
 
 
 /*Responsive*/
@@ -327,6 +293,7 @@ fieldset{ 					   /*This part is for the size background color font size and fon
       	}
       
 
+
    .uli{         /*This is for the text in navigation bar for responsive design*/
    	transform-origin: 0% 0%;
    	transform: translate(0%, -500%);
@@ -337,15 +304,48 @@ fieldset{ 					   /*This part is for the size background color font size and fon
      margin-left: 7%;
      margin-top: -50px;
 }
+/*}*/
+body{
+	height: 1128px;
+	width: 100%;
+}
 
 
+.placeholder2{   
+  padding-left: 50px;
+}
+.placeholder3{
+    padding-left: 32px;
+}
+.pics{
+	display: grid;
+	grid-template-columns: auto ;
+}
+.header{
+	margin-top: 6px;
+	/*width: 100%;*/
+	margin-bottom: -20px;
+}
+.grid{                          /*This is for the grid view of the tables in the qualification area*/
+	display: grid;
+	grid-template-columns: auto;
+}
 
+.image{                               /*This is for the grid view of the image as placeholders.*/
+	display: grid;
+	grid-template-columns: auto ;
+}
 
     .main input:checked~ .uli{  
     	 	transform: none;
     	  transition-duration: 1s;
 }
+.contact, fieldset{
+	margin:0px;
+	float: none;
+	width: 81%;
 }
+
 
 #font{         /*This part is for the checkbox in the navigation bar.*/
 	position: relative;
@@ -355,4 +355,4 @@ fieldset{ 					   /*This part is for the size background color font size and fon
 	opacity: 0;
 }
 
-
+}
