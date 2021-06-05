@@ -42,6 +42,13 @@ nav{                                   /*This part is for the size and color of 
 	width:100%;
 	margin-top: 0px;
 }
+#font{         /*This part is for the checkbox in the navigation bar.*/
+	position: relative;
+	height:18px;
+	width: 36px;
+	top: 25px;
+	opacity: 0;
+}
 
 /*Home*/
 
