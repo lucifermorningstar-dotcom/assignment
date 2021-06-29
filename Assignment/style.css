@@ -35,20 +35,23 @@ body{                           /*This is the CSS for body section for all the H
 	color: black;
 }
 
-
 nav{                                   /*This part is for the size and color of the navigation bar.*/
 	background-color: #67cdd852;
 	height:60px;
 	width:100%;
 	margin-top: 0px;
 }
-#font{         /*This part is for the checkbox in the navigation bar.*/
+
+#font{                             /*This part is for the checkbox in the navigation bar.*/
 	position: relative;
 	height:18px;
 	width: 36px;
 	top: 25px;
 	opacity: 0;
 }
+
+
+
 
 /*Home*/
 
@@ -71,18 +74,17 @@ nav{                                   /*This part is for the size and color of 
 .placeholder1{                /*This part is for the first image of palceholder*/
 	 width:150px;
 	 height:150px;
-	
 	 margin-top:30px;
-    float: right;
-  padding-left: 150px;
-}
+     float: right;
+     padding-left: 150px;
+} 
 
 .placeholder2{                /*This part is for the second image of palceholder*/
 	 width:150px;
 	 height:150px;
 	 margin-top: 30px;
-    float:left;
-        margin-left: 102px;
+     float:left;
+     margin-left: 102px;
 }
 
 .placeholder3{                         /*This part is for the third image of palceholder*/
@@ -120,25 +122,20 @@ nav{                                   /*This part is for the size and color of 
 
 .header{                   /*This part is for the top part of cv page.*/
 	width:100%;
-	/*height: 125px;*/
 	background-color:#456076e3;
-	/*display: flex;*/
 	text-align: left;
 	margin-top: 5px;
-
-	}
+}
 
 
 .about{                    /*This is for the above section of the personal details area*/ 
 		margin-top: 87px;
-
 }
 
 .header img{                      /*This is the part for the image inside CV page*/
 	width: 180px;
 	height: 180px;
 	border-radius: 50%;
-  /* position: absolute; */
 	border: 2px #f1eded00;
 	top: 40px ;	
 	left:40px;
@@ -147,9 +144,8 @@ nav{                                   /*This part is for the size and color of 
 
 .header_txt{               /*This is the part for the text in the header section of the CV*/
 	color:white;
-	/*width:100%;*/
 	margin-left: 250px;
-	    margin-top: -163px;
+    margin-top: -163px;
 }
 
 .header_txt h1{                      /*This is the part for the name in the header section of the CV.*/
@@ -161,29 +157,26 @@ nav{                                   /*This part is for the size and color of 
 	color:grey;
 }
 
-
 .left-area{                                /*This part is for the  left area of the CV */
 	width:30%;
 	background-color: #8585bcc4;
 	text-align: center;
 }
+
 .left-area .details{            /*This part is for the personal details in left area of the CV */
 	margin-top: 130px;
 }
 
 
 .right-area{                             /*This part is for the  right area of the CV */
-   background-color: #b67ec4e0;
-   /*width: 50%;*/
-margin-top: 88px;
+    background-color: #b67ec4e0;
+	margin-top: 88px;
     height: 382px;
     padding-top: 1px;
 }
 
 .ra{                                /*This is above section of the qualification area*/
 	margin-top: -64px;
-	/*width: 50%;*/
-
 }
 
 tr, td{												 /*This part is for size and border-color of the table.*/
@@ -192,7 +185,6 @@ tr, td{												 /*This part is for size and border-color of the table.*/
 	border-color: #583062e0;
 	padding: 10px;
 }
-
 
 .maintable{                                /*This part is for the size color and inside text of the table.*/
 	border: 2px solid;
@@ -205,10 +197,8 @@ tr, td{												 /*This part is for size and border-color of the table.*/
 
 .details{                                  /*This is for the personal details area.*/
 	background-color: #a2a2d473;
-    /*padding-top: 10px;*/
     height: 384px;
     margin-top: -84px;
-    /*width: 30%;*/
 }
 
 
@@ -217,71 +207,79 @@ tr, td{												 /*This part is for size and border-color of the table.*/
 
 /*Contact*/
 
-legend{                                  /*This part is for the font of registration in contact page.*/
+ legend{                                  /*This part is for the font of registration in contact page.*/
 	font-size: 40px;
 }
 
-fieldset{ 					   /*This part is for the size background color font size and font color of registration page in contact. */
+ fieldset{ 					          /*This part is for the size background color font size and font color of registration page in contact. */
 	width:50%;
 	background-image: linear-gradient(rgb(174 149 143 / 51%),rgb(182 201 199 / 71%));
-   height: 460px;
-   border-color: #9a9aa500;
-   margin-top: 0px;
-   padding-left: 50px;
-   color: #1f1407c9;
-   font-size: 20px;
+    height: 460px;
+    border-color: #9a9aa500;
+    margin-top: 0px;
+    padding-left: 50px;
+    color: #1f1407c9;
+    font-size: 20px;
 }
 
 .contact{              /*This section is for the contact us part in contact page.*/
 	background-color:#beb54ce0;
 	margin:-150x;
-   text-align:left;
+    text-align:left;
 	padding:40px;
 	padding-left: 15px;
 	margin-top: -400px;
 	float: right;
-   margin-bottom:0px;
-   width: 45%;
+    margin-bottom:0px;
+    width: 45%;
 }
+
+
+
 
 
 /*Report*/
 
-.writing1{
+.writing1{                     /*This is for the first paragraph of the report page.*/
 	background-color: #9fb7c0;
 }
 
-.pics{
+.pics{                          /*This is for the display type of images in the report page.*/
 	display: grid;
 	grid-template-columns: auto auto;
 	background-color: #3d362e;
-	/*padding-bottom: 15px;*/
-
 }
 
-.pics img{
+.pics img{                /*This is for the before and after update images in the report page.*/
 	width: 100%;
-
 }
 
-
-.desc{
-	font-size: 10px;
-}
-.writing2{
+.writing2{                         /*This is for the second paragraph after the images of the report page.*/
 	background-color: #9fb7c0;
 	margin-top: -15px;
 }
-.writing3{
+
+.writing3{                             /*This is for the reference section.*/
 	background-color: #c6956b;
 	margin-top: -16px;
 	padding-top: 5px;
 }
 
 
+
+
+
+
 /*Responsive*/
 
-.port{
+
+.bla{                              /*This is for the placement of the hamburger menu icon.*/
+	display: flex;
+   flex-direction: column;
+}
+
+
+.port{                                /*This is for the hamburger menu icons on the navigation bar.*/ 
 	height: 3px;
 	width: 25px;
 	background-color: #1e1916b3;
@@ -289,68 +287,81 @@ fieldset{ 					   /*This part is for the size background color font size and fon
 	margin-left: 5px;
 }
 
-.bla{
-	display: flex;
-   flex-direction: column;
-}
 
-      @media screen and (max-width:500px){
+
+@media screen and (max-width:500px){
       	body{
       		height: 678px;
       	}
       
 
-
-   .uli{         /*This is for the text in navigation bar for responsive design*/
+.uli{              /*This is for the text in navigation bar for responsive design*/
    	transform-origin: 0% 0%;
    	transform: translate(0%, -500%);
    	display:flex;
-      flex-direction: column;
+    flex-direction: column;
    	transition: transform 0s;
    	float: none;
-     margin-left: 7%;
-     margin-top: -50px;
+    margin-left: 7%;
+    margin-top: -50px;
 }
-/*}*/
-body{
+
+body{                           /*This is for the size of the size of background image in responsive view.*/
 	height: 1128px;
 	width: 100%;
 }
 
+/*Portfolio*/
 
-.placeholder2{   
-  padding-left: 50px;
-}
-.placeholder3{
-    padding-left: 32px;
-}
-.pics{
-	display: grid;
-	grid-template-columns: auto ;
-}
-.header{
-	margin-top: 6px;
-	/*width: 100%;*/
-	margin-bottom: -20px;
-}
-.grid{                          /*This is for the grid view of the tables in the qualification area*/
-	display: grid;
-	grid-template-columns: auto;
-}
 
 .image{                               /*This is for the grid view of the image as placeholders.*/
 	display: grid;
 	grid-template-columns: auto ;
 }
 
-    .main input:checked~ .uli{  
-    	 	transform: none;
-    	  transition-duration: 1s;
+
+.placeholder2{                 /*This is for the placement of the placeholder second image  on the portfolio page in responsive view.*/
+    padding-left: 50px;
 }
-.contact, fieldset{
+
+.placeholder3{                 /*This is for the placement of the placeholder third image on the portfolio page in responsive view.*/
+    padding-left: 32px;
+}
+
+
+
+
+
+/*CV*/
+.header{                       /*This is for the header part in the Cv page.*/
+	margin-top: 6px;
+	margin-bottom: -20px;
+}
+
+.grid{                          /*This is for the grid view of the tables in the qualification area*/
+	display: grid;
+	grid-template-columns: auto;
+}
+
+
+/*Contact*/
+.contact, fieldset{  /*This is for the size of the contact us and registration section*/
 	margin:0px;
 	float: none;
 	width: 81%;
+}
+
+
+/*Report*/
+.pics{                         /*This is for the view of the before and after images in report page.*/
+	display: grid;
+	grid-template-columns: auto ;
+}
+
+
+.main input:checked~ .uli{  
+    	 	transform: none;
+    	  transition-duration: 1s;
 }
 
 
