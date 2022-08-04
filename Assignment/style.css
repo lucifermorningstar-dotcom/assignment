@@ -11,23 +11,26 @@ body{                           /*This is the CSS for body section for all the H
 
 }
 
+#bla{
+	display:none;
+}
 
-.uli{													/*This part is for the navigation bar.*/
-	float:right;
-	display:flex;
-	margin-top: -27px;
+#main {
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
 
 
-.uli a{                                       /*This part is for the text inside navigation bar. */
+.uli{   
+	float:right;
+	display:flex;
 	text-decoration: none;
 	color:white;
 	padding:5px 20px;
 	border:1px solid white transparent;
 	transition:0.5s ease;
 	height: 10px;
-	margin-top: 5px;
-	padding-top: 10px;
+	
 }
 
 .uli a:hover{									/*This part is for hover on the text inside nav bar. */
@@ -151,9 +154,10 @@ nav{                                   /*This part is for the size and color of 
 .header_txt h1{                      /*This is the part for the name in the header section of the CV.*/
 	font-size: 30px;
 }
+/* his part is for the  occupation in the header section of the CV  */ */
 
-.header_txt p{                           This part is for the  occupation in the header section of the CV 
-	font-size: 20px;
+.header_txt p{                           
+	font-size: 20 px;
 	color:grey;
 }
 
@@ -274,7 +278,7 @@ tr, td{												 /*This part is for size and border-color of the table.*/
 
 
 .bla{                              /*This is for the placement of the hamburger menu icon.*/
-	display: flex;
+	display: none;
    flex-direction: column;
 }
 
