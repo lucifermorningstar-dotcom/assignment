@@ -1,13 +1,12 @@
 
 body{                           /*This is the CSS for body section for all the HTML pages.*/
 	background-image: url(style.jpg);
-	padding:0px;
     margin:0px;
     width: 100%;
     height:680px;
     background-size:cover;
     background-position:center;
-    background-repeat:no-repeat;
+    /* background-repeat:no-repeat; */
 
 }
 
@@ -18,8 +17,25 @@ body{                           /*This is the CSS for body section for all the H
 #main {
 	display: grid;
 	grid-template-columns: auto auto auto;
+	column-gap: 30px;
+	padding: 10px;
+	height: 80%;
+	
 }
 
+#main div{
+	background-color:rgb(210, 210, 210);
+	overflow-y: scroll;
+	height: 100%;
+	padding: 10px;
+	box-shadow: 2px 2px rgb(181, 180, 180);
+}
+#main div h1{
+	text-align: center;
+	position:sticky;
+	top:0;
+	background-color:rgb(227, 226, 226);
+}
 
 .uli{   
 	float:right;
@@ -34,12 +50,12 @@ body{                           /*This is the CSS for body section for all the H
 }
 
 .uli a:hover{									/*This part is for hover on the text inside nav bar. */
-	background-color: #69dcde;
+	background-color: #7ac6c7;
 	color: black;
 }
 
 nav{                                   /*This part is for the size and color of the navigation bar.*/
-	background-color: #67cdd852;
+	background-color: #f6f9facd;
 	height:60px;
 	width:100%;
 	margin-top: 0px;
@@ -293,7 +309,7 @@ tr, td{												 /*This part is for size and border-color of the table.*/
 
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
       	body{
       		height: 678px;
       	}
@@ -305,7 +321,7 @@ tr, td{												 /*This part is for size and border-color of the table.*/
    	display:flex;
     flex-direction: column;
    	transition: transform 0s;
-   	float: none;
+   	float: right;
     margin-left: 7%;
     margin-top: -50px;
 }
@@ -332,7 +348,10 @@ body{                           /*This is for the size of the size of background
     padding-left: 32px;
 }
 
-
+#main{
+	grid-template-columns: auto;
+	row-gap: 30px;
+}
 
 
 
@@ -375,6 +394,11 @@ body{                           /*This is for the size of the size of background
 	width: 36px;
 	top: 25px;
 	opacity: 0;
+}
+
+
+#bla{
+	display:block;
 }
 
 }
